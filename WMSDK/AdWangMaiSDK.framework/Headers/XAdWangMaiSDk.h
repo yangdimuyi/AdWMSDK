@@ -51,8 +51,9 @@ NS_ASSUME_NONNULL_BEGIN
  @param appKey 应用key
  @param appId 小程序跳转所需appId,用于向微信注册应用
  @param universalLink 小程序跳转所需universalLink,用于向微信注册应用
+ @param handler  初始化结果回传
  */
-- (void)initWithAppToken:(NSString *)appToken appKey:(NSString *)appKey appId:(NSString *_Nullable)appId universalLink:(NSString *_Nullable)universalLink;
+- (void)initWithAppToken:(NSString *)appToken appKey:(NSString *)appKey appId:(NSString *_Nullable)appId universalLink:(NSString *_Nullable)universalLink handler:(void(^)(BOOL success, NSError *error))handler;
 
 /// sdk版本号
 + (NSString *)sdkVersion;

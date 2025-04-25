@@ -21,12 +21,6 @@ FOUNDATION_EXPORT const unsigned char AdWangMaiSDKVersionString[];
 #import <AdWangMaiSDK/XAdSplashAd.h>
 #import <AdWangMaiSDK/XAdSplashDelegate.h>
 
-#import <AdWangMaiSDK/XAdBannerAd.h>
-#import <AdWangMaiSDK/XAdBannerDelegate.h>
-
-#import <AdWangMaiSDK/XAdRewardedVideoAd.h>
-#import <AdWangMaiSDK/XAdRewardedVideoDelegate.h>
-
 #import <AdWangMaiSDK/XAdInterstitialAd.h>
 #import <AdWangMaiSDK/XAdInterstitialDelegate.h>
 
@@ -34,10 +28,6 @@ FOUNDATION_EXPORT const unsigned char AdWangMaiSDKVersionString[];
 #import <AdWangMaiSDK/XAdNativeExpressDelegete.h>
 
 #import <AdWangMaiSDK/XAdNativeAd.h>
-#import <AdWangMaiSDK/XAdNativeAdResponse.h>
 #import <AdWangMaiSDK/XAdWMNativeAdView.h>
+#import <AdWangMaiSDK/XAdNativeAdResponse.h>
 #import <AdWangMaiSDK/XAdNativeDelegete.h>
-
-#import <AdWangMaiSDK/XAdOrdinaryVideoAd.h>
-#import <AdWangMaiSDK/XAdOrdinaryVideoAdDelegate.h>
-
