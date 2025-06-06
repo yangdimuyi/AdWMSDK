@@ -49,6 +49,16 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param winInfo 竞胜信息 字典类型
 - (void)sendWinNotificationWithInfo:(NSDictionary *_Nullable)winInfo;
 
+/// 获取当前广告物料
+/// 1. ad_type：1 图片 / 2 视频 / 3 html
+/// 2. imge_link: 图片
+/// 3. video_link: 视频
+/// 4. jump_link: 跳转链接
+/// 5. title: 标题
+/// 6. landing_page_url: 落地页
+/// 7. package_name: 包名
+- (NSDictionary *)getCurrentAdMaterialsInfo;
+
 @end
 
 NS_ASSUME_NONNULL_END
